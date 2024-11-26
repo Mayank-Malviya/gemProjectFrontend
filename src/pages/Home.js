@@ -47,11 +47,11 @@ const Home = () => {
     <>
       <Container class1="home-wrapper-1 py-5">
         <div className="row">
-          <div className="col-6">
+          <div className="col-6 mb-3">
             <div className="main-banner position-relative ">
               <img
                 src="images/main-banner-1.jpg"
-                className="img-fluid rounded-3"
+                className="img-fluid"
                 alt="main banner"
               />
               <div className="main-banner-content position-absolute">
@@ -126,7 +126,7 @@ const Home = () => {
       </Container>
       <Container class1="home-wrapper-2 py-5">
         <div className="row">
-          <div className="col-12">
+          <div className="col-6 mb-3">
             <div className="servies d-flex align-items-center justify-content-between">
               {services?.map((i, j) => {
                 return (
@@ -379,7 +379,7 @@ const Home = () => {
       <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
-            <h3 className="section-heading">Our Popular Products</h3>
+            <h3 className="section-heading">ular Products</h3>
           </div>
         </div>
         <div className="row">
